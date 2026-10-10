@@ -3,129 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>รับมิกซ์เพลง | Commission งาน Mix</title>
-<meta name="description" content="รับ Commission มิกซ์เพลง ปรับเสียงร้อง เสียงดนตรี ให้ฟังชัด แน่น พร้อมปล่อย ดูแพ็กเกจ ขั้นตอน และวิธีสั่งงาน">
+<title>ArzilysIX's Commission | Home</title>
+<meta name="description" content="รับ Commission ต่างๆสำหรับ Vtuber Mix&Mastering, ตัดคลิปพื้นฐาน, ทำปกคลิป">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#070A12;--panel:#0E1A3A;--ink:#F4F7FD;--mute:#A3B1D1;--blue:#2F6BFF;--sky:#6FA3FF;--line:#1E3263;--r:14px}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth}
-body{font-family:"IBM Plex Sans Thai",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:17px}
-h1,h2,h3{font-family:"Mitr","IBM Plex Sans Thai",sans-serif;font-weight:500;line-height:1.3}
-a{color:inherit}
-:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-header.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font-family:"Mitr",sans-serif;font-size:1.25rem;text-decoration:none}
-.nav a.link{margin-left:20px;text-decoration:none;color:var(--mute)}
-.nav a.link:hover{color:var(--ink)}
-.btn{display:inline-block;background:var(--blue);color:#fff;padding:12px 26px;border-radius:999px;text-decoration:none;font-weight:500;border:0;cursor:pointer;font:inherit;font-weight:500}
-.btn:hover{filter:brightness(.93)}
-.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
-.hero{padding:56px 0 48px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.brand{background:#fff;border-radius:var(--r);padding:16px}
-.brand img{display:block;width:100%;height:auto}
-.hero h1{font-size:clamp(2rem,5vw,3.2rem)}
-.hero p{color:var(--mute);margin:16px 0 28px;max-width:44ch}
-.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
-section{padding:56px 0}
-section>.wrap>h2{font-size:clamp(1.5rem,3.5vw,2.1rem);margin-bottom:8px}
-.sub{color:var(--mute);margin-bottom:32px;max-width:60ch}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:flex;flex-direction:column}
-.card.best{border:2px solid var(--blue)}
-.price{font-family:"Mitr",sans-serif;font-size:2rem;margin:6px 0 2px}
-.price small{font-size:1rem;color:var(--mute);font-family:"IBM Plex Sans Thai",sans-serif}
-.card ul{list-style:none;padding:0;margin:14px 0 20px;flex:1}
-.card li{padding:6px 0 6px 26px;position:relative;border-top:1px solid var(--line)}
-.card li:before{content:"";position:absolute;left:4px;top:14px;width:12px;height:7px;border-left:3px solid var(--sky);border-bottom:3px solid var(--sky);transform:rotate(-45deg)}
-.tag{align-self:flex-start;background:var(--blue);color:#fff;border-radius:999px;font-size:.8rem;padding:2px 12px;margin-bottom:8px}
-.center{text-align:center;margin-top:32px}
-.steps{counter-reset:s;display:grid;gap:14px;max-width:720px}
-.steps li{list-style:none;counter-increment:s;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px 20px 16px 64px;position:relative}
-.steps li:before{content:counter(s);position:absolute;left:18px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-family:"Mitr",sans-serif}
-.steps b{display:block}
-.work{display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit}
-.work:hover{border-color:var(--blue)}
-.thumb{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:var(--bg)}
-.thumb img{display:block;width:100%;height:100%;object-fit:cover}
-.thumb:after{content:"";position:absolute;left:50%;top:50%;width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:rgba(7,10,18,.7) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M9 7v10l8-5z'/%3E%3C/svg%3E") center/60% no-repeat}
-.work .meta{color:var(--mute);font-size:.92rem}
-.contact{background:linear-gradient(135deg,#14307A,#0E1A3A);border:1px solid var(--line);color:#fff;border-radius:var(--r);padding:40px;text-align:center}
-.contact p{color:#C9D0E6;margin:10px 0 22px}
-.contact .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.contact .btn.ghost{color:#fff;border-color:#fff}
-footer{text-align:center;color:var(--mute);padding:32px 0;font-size:.9rem}
-@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:24px}.nav .link{display:none}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
   <header class="nav">
-    <a class="logo" href="#top">ArzilysIX's Commission</a>
-    <nav><a class="link" href="#packages">แพ็กเกจ</a><a class="link" href="#process">ขั้นตอน</a><a class="link" href="#works">ตัวอย่างงาน</a><a class="btn" style="margin-left:20px" href="#contact">สั่งงาน</a></nav>
+    <a class="logo" href="index.html">ArzilysIX's Commission</a>
+    <nav><a class="link active" href="index.html">หน้าแรก</a><a class="link" href="mix.html">Mix & Mastering</a><a class="link" href="editing.html">Editing</a><a class="link" href="thumbnail.html">Thumbnail</a><a class="btn" href="#contact">สั่งงาน</a></nav>
   </header>
 
   <main id="top">
     <div class="hero">
       <div>
-        <h1>เพลงของคุณ<br>ฟังชัด แน่น พร้อมปล่อย</h1>
-        <p>รับมิกซ์เพลงตามสั่ง ปรับเสียงร้องและเครื่องดนตรีให้เข้ากัน ดูแลงานทุกขั้นตอน แก้ไขได้ตามแพ็กเกจ</p>
-        <div class="cta"><a class="btn" href="#packages">ดูแพ็กเกจ</a><a class="btn ghost" href="#works">ฟังตัวอย่างงาน</a></div>
+        <h1>ArzilysIX's Commission Site</h1>
+        <p>รับ Commission ต่างๆสำหรับ Vtuber Mix&amp;Mastering, ตัดคลิปพื้นฐาน, ทำปกคลิป</p>
+        <div class="cta"><a class="btn" href="#services">ดูบริการทั้งหมด</a><a class="btn ghost" href="#contact">ติดต่อ</a></div>
       </div>
-      <div class="brand"><img src="logo.png"></div>
+      <div class="brand"><img src="logo.png" alt="โลโก้ ArzilysIX"></div>
     </div>
 
-    <section id="packages"><div class="wrap">
-      <h2>แพ็กเกจและราคา</h2>
-      <p class="sub">ราคาเป็นตัวอย่าง แก้ตัวเลขและรายละเอียดให้ตรงกับงานของคุณได้เลย</p>
+    <section id="services"><div class="wrap">
+      <h2>บริการของเรา</h2>
+      <p class="sub">เลือกบริการที่สนใจเพื่อดูแพ็กเกจ ขั้นตอน และตัวอย่างงาน</p>
       <div class="grid">
-        <div class="card"><h3>Basic</h3><div class="price">฿800 <small>/ เพลง</small></div>
-          <ul><li>มิกซ์ไม่เกิน 16 แทร็ก</li><li>แก้ไขได้ไม่จำกัดจำนวนครั้ง</li><li>ส่งงานใน 7 วัน</li><li>ไฟล์ WAV</li></ul></div>
-        <div class="card best"><span class="tag">ยอดนิยม</span><h3>Standard</h3><div class="price">฿1,500 <small>/ เพลง</small></div>
-          <ul><li>มิกซ์ไม่จำกัดแทร็ก</li><li>แก้ไขได้ไม่จำกัดจำนวนครั้ง</li><li>ส่งงานใน 15 วัน</li><li>WAV และ MP3</li><li>มาสเตอร์ริ่งเบื้องต้น</li></ul></div>
-      </div>
-      <div class="center"><a class="btn" href="#contact">สั่งงาน</a></div>
-    </div></section>
-
-    <section id="process"><div class="wrap">
-      <h2>ขั้นตอนการสั่งงาน</h2>
-      <p class="sub">ทำตามลำดับนี้ งานจะเริ่มได้เร็วที่สุด</p>
-      <ol class="steps" style="padding:0">
-        <li><b>ติดต่อและเลือกแพ็กเกจ</b>แจ้งชื่อเพลง แนวเพลง และจำนวนแทร็กคร่าวๆ</li>
-        <li><b>ชำระมัดจำ 50%</b>คิวจะถูกจองให้หลังโอนมัดจำ</li>
-        <li><b>ส่งไฟล์แทร็ก</b>ส่ง WAV แยกแทร็ก พร้อมเพลงอ้างอิงที่อยากได้เสียงแนวนั้น</li>
-        <li><b>รับตัวอย่างและแก้ไข</b>ฟังเวอร์ชันแรกได้ที่ Discord ศูนย์บริการลูกค้า [Customer's Hall]</li>
-        <li><b>ชำระส่วนที่เหลือและรับไฟล์จริง</b>ได้ไฟล์ความละเอียดสูงครบตามแพ็กเกจ</li>
-      </ol>
-    </div></section>
-
-    <section id="works"><div class="wrap">
-      <h2>ตัวอย่างงาน</h2>
-      <p class="sub">วางลิงก์ YouTube ใน <code>href="..."</code> ของแต่ละการ์ด รูปปกจะดึงมาแสดงให้อัตโนมัติ</p>
-      <div class="grid">
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 1"></div><h3>ชื่อเพลง 1</h3><span class="meta">แนว Pop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 2"></div><h3>ชื่อเพลง 2</h3><span class="meta">แนว Rock</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
-        <a class="card work" href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noopener"><div class="thumb"><img loading="lazy" alt="ตัวอย่างงาน ชื่อเพลง 3"></div><h3>ชื่อเพลง 3</h3><span class="meta">แนว Hip-hop</span></a>
+        <a class="card svc" href="mix.html"><h3>Mix &amp; Mastering</h3><p class="sub" style="margin:8px 0 0">มิกซ์และมาสเตอร์ริ่งเพลง</p><div class="price">เริ่มต้น ฿800 <small>/ เพลง</small></div><span class="go">ดูรายละเอียด →</span></a>
+        <a class="card svc" href="editing.html"><h3>Editing</h3><p class="sub" style="margin:8px 0 0">ตัดต่อคลิปพื้นฐาน</p><div class="price">เริ่มต้น ฿XXX <small>/ คลิป</small></div><span class="go">ดูรายละเอียด →</span></a>
+        <a class="card svc" href="thumbnail.html"><h3>Thumbnail</h3><p class="sub" style="margin:8px 0 0">ทำปกคลิป</p><div class="price">เริ่มต้น ฿XXX <small>/ ปก</small></div><span class="go">ดูรายละเอียด →</span></a>
       </div>
     </div></section>
-
 
     <section id="contact"><div class="wrap">
       <div class="contact">
-        <h2>พร้อมให้เพลงของคุณฟังดีขึ้นหรือยัง</h2>
-        <p>ทักมาบอกชื่อเพลงและแพ็กเกจที่สนใจ จะตอบกลับโดยเร็ว</p>
+        <h2>Contact Me</h2>
         <div class="row">
           <a class="btn" href="https://discord.gg/gmDNHcJpJx">Discord</a>
           <a class="btn ghost" href="https://x.com/ArzilysIX">X [Twitter]</a>
@@ -136,12 +50,6 @@ footer{text-align:center;color:var(--mute);padding:32px 0;font-size:.9rem}
   </main>
   <footer>© 2026 ArzilysIX's Commission</footer>
 </div>
-
-<script>
-document.querySelectorAll('a.work').forEach(function(a){
-  var m=a.href.match(/(?:v=|youtu\.be\/|shorts\/|embed\/|live\/)([\w-]{11})/), img=a.querySelector('img');
-  if(m&&img) img.src='https://img.youtube.com/vi/'+m[1]+'/hqdefault.jpg';
-});
-</script>
+<script src="script.js"></script>
 </body>
 </html>
